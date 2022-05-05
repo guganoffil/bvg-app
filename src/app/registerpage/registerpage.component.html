@@ -1,0 +1,32 @@
+<div class="container my-3 p-4 bg-light">
+
+<div class="jumbotron">
+    <p class="text-warning" >PLEASE FILL YOUR DETAILS</p>
+    
+  
+    <div class="form-group">
+        <label for="email">Username</label>
+        <input type="email" class="form-control" placeholder="username" id="username">
+      </div>
+      <div class="form-group">
+        <label for="pwd">Password:</label>
+        <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+      </div>
+      
+      <div class="form-group">
+          <label for="pwd"> confirm Password:</label>
+          <input type="password" class="form-control" placeholder="confirm password" id="pwd">
+        </div>
+        <br>
+        <button mat-raised-button (click)="openSnackBar ('you read all tearm&condition and accept it')">Accept T&C</button>
+        <br>
+        <div class="d-flex flex-row-reverse ">
+            
+            
+          <button type="submit" class="btn btn-primary">Save info</button>  
+    
+        
+        </div>
+        
+       
+</div>
